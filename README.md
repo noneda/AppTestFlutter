@@ -72,7 +72,7 @@ classDiagram
         +fromJson(json: Map<String, dynamic>): Utilapi
     }
 
-    class Apires<T> {
+    class Apires{
         data: T
         error: bool
         errorMessage: String
